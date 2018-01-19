@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-Home.propTypes = {}
-
-export default function Home (props) {
-  return (
-    <div>Home</div>
-  )
+export default class Home extends Component {
+  static propTypes = {}
+  state = {}
+  render () {
+    return (
+      <div>Home</div>
+    )
+  }
 }
